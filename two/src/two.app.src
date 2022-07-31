@@ -1,0 +1,8 @@
+{application, two,
+[
+  {description, "Sample application two"},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib, one]},
+  {env, [{config, []}]}
+]}.
