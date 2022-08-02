@@ -8,7 +8,7 @@ defmodule FIX.MixProject do
       elixir:          "~> 1.13",
       start_permanent: Mix.env() == :prod,
       deps:            deps(),
-      elixirc_paths:   ["src"],
+      elixirc_paths:   ["lib"],
     ]
   end
 
