@@ -4,7 +4,7 @@ defmodule MixProject.Three do
   def project do
     [
       app:             :two,
-      version:         "1.0",
+      version:         "1.0.0",
       elixir:          "~> 1.13",
       start_permanent: Mix.env() == :prod,
       deps:            deps(),
@@ -30,7 +30,7 @@ defmodule MixProject.Three do
 
   defp deps do
     [
-      {:one, git: "git@github.com:saleyn/rebar-test.git", branch: "three", sparse: "one", engine: :mix},
+      {:one, git: "git@github.com:saleyn/rebar-test.git", branch: "mix", sparse: "one", engine: :mix},
     ]
   end
 end
