@@ -1,3 +1,0 @@
-%{
-  "one": {:git, "git@github.com:saleyn/rebar-test.git", "fec41892956e839ca604991813bd09edbe275e43", [branch: "three", sparse: "one"]},
-}
