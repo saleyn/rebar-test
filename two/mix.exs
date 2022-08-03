@@ -30,7 +30,8 @@ defmodule MixProject.Three do
 
   defp deps do
     [
-      {:one, git: "git@github.com:saleyn/rebar-test.git", branch: "mix", sparse: "one", engine: :mix},
+      # {:one, git: "git@github.com:saleyn/rebar-test.git", branch: "mix", sparse: "one", engine: :mix},
+      {:one, path: "../one", engine: :mix},
     ]
   end
 end
