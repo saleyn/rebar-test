@@ -8,7 +8,7 @@ defmodule MixProject.Three do
       elixir:          "~> 1.13",
       start_permanent: Mix.env() == :prod,
       deps:            deps(),
-      elixirc_paths:   ["lib"],
+      elixirc_paths:   ["src"],
       releases:        releases(),
     ]
   end
