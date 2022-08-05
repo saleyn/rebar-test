@@ -20,7 +20,7 @@ defmodule FIX.MixProject do
 
   defp deps do
     [
-      {:one, git: "git@github.com:saleyn/rebar-test.git", branch: "three", sparse: "one"},
+      {:one, git: "git@github.com:saleyn/rebar-test.git", branch: "three", sparse: "one", engine: "rebar"},
     ]
   end
 end
